@@ -5,7 +5,7 @@ import {
   MdExplore,
   MdHistory,
   MdHome,
-  MdSmart_display,
+  MdSmartDisplay,
   MdSubscriptions,
   MdThumbUp,
   MdVideoLibrary,
@@ -26,7 +26,7 @@ const navigationItems = [
 const libraryItems = [
   { icon: "MdVideoLibrary", label: "Library", active: false },
   { icon: "MdHistory", label: "History", active: false },
-  { icon: "MdSmart_display", label: "Your videos", active: false },
+  { icon: "MdSmartDisplay", label: "Your videos", active: false },
   { icon: "MdWatchLater", label: "Watch later", active: false },
   { icon: "MdThumbUp", label: "Liked videos", active: false },
 ];
@@ -56,7 +56,7 @@ const getIcon = (iconName: string) => {
     MdSubscriptions,
     MdVideoLibrary,
     MdHistory,
-    MdSmart_display,
+    MdSmartDisplay,
     MdWatchLater,
     MdThumbUp,
     FaReact,
