@@ -5,7 +5,11 @@ export const metadata: Metadata = {
   title: "YouTube Clone - Next.js",
   description: "A modern YouTube clone built with Next.js and Tailwind CSS",
   keywords: "youtube, clone, nextjs, tailwind, react, video",
-  viewport: "width=device-width, initial-scale=1",
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
